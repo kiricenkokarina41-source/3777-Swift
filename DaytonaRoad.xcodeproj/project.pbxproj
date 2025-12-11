@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7232642B2EEADDA900809AB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 723264282EEADDA900809AB2 /* Assets.xcassets */; };
+		7232642C2EEADDA900809AB2 /* DaytonaRoadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723264292EEADDA900809AB2 /* DaytonaRoadApp.swift */; };
+		723264372EEADDBA00809AB2 /* DRLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723264342EEADDBA00809AB2 /* DRLaunchView.swift */; };
+		723264382EEADDBA00809AB2 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7232642E2EEADDBA00809AB2 /* View+Extensions.swift */; };
+		723264392EEADDBA00809AB2 /* ShapeStyle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723264302EEADDBA00809AB2 /* ShapeStyle+Extensions.swift */; };
+		7232643A2EEADDBA00809AB2 /* DRHomeWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723264322EEADDBA00809AB2 /* DRHomeWebView.swift */; };
+		7232643B2EEADDBA00809AB2 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7232642F2EEADDBA00809AB2 /* Color+Extensions.swift */; };
+		B3CE87FEAB9FDF5281A87C86 /* Pods_DaytonaRoad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A708EF1DDC82F415BD1A750 /* Pods_DaytonaRoad.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0EAB702EE16D92403FF3FDD3 /* Pods-DaytonaRoad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaytonaRoad.debug.xcconfig"; path = "Target Support Files/Pods-DaytonaRoad/Pods-DaytonaRoad.debug.xcconfig"; sourceTree = "<group>"; };
+		1A708EF1DDC82F415BD1A750 /* Pods_DaytonaRoad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DaytonaRoad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5176C4E56065ADAA548EFEA5 /* Pods-DaytonaRoad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaytonaRoad.release.xcconfig"; path = "Target Support Files/Pods-DaytonaRoad/Pods-DaytonaRoad.release.xcconfig"; sourceTree = "<group>"; };
+		723264192EEADD6700809AB2 /* DaytonaRoad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaytonaRoad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		723264282EEADDA900809AB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		723264292EEADDA900809AB2 /* DaytonaRoadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaytonaRoadApp.swift; sourceTree = "<group>"; };
+		7232642E2EEADDBA00809AB2 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		7232642F2EEADDBA00809AB2 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		723264302EEADDBA00809AB2 /* ShapeStyle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShapeStyle+Extensions.swift"; sourceTree = "<group>"; };
+		723264322EEADDBA00809AB2 /* DRHomeWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DRHomeWebView.swift; sourceTree = "<group>"; };
+		723264342EEADDBA00809AB2 /* DRLaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DRLaunchView.swift; sourceTree = "<group>"; };
+		7232643C2EEADE4700809AB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		723264162EEADD6700809AB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3CE87FEAB9FDF5281A87C86 /* Pods_DaytonaRoad.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01C69E244C0007557633DA4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A708EF1DDC82F415BD1A750 /* Pods_DaytonaRoad.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5500FD1F6EBEF161F9A9179C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0EAB702EE16D92403FF3FDD3 /* Pods-DaytonaRoad.debug.xcconfig */,
+				5176C4E56065ADAA548EFEA5 /* Pods-DaytonaRoad.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		723264102EEADD6700809AB2 = {
+			isa = PBXGroup;
+			children = (
+				7232642A2EEADDA900809AB2 /* DaytonaRoad */,
+				7232641A2EEADD6700809AB2 /* Products */,
+				5500FD1F6EBEF161F9A9179C /* Pods */,
+				01C69E244C0007557633DA4E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7232641A2EEADD6700809AB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				723264192EEADD6700809AB2 /* DaytonaRoad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7232642A2EEADDA900809AB2 /* DaytonaRoad */ = {
+			isa = PBXGroup;
+			children = (
+				7232643C2EEADE4700809AB2 /* Info.plist */,
+				723264312EEADDBA00809AB2 /* Extensions */,
+				723264362EEADDBA00809AB2 /* Screens */,
+				7232642D2EEADDAC00809AB2 /* App */,
+				723264282EEADDA900809AB2 /* Assets.xcassets */,
+			);
+			path = DaytonaRoad;
+			sourceTree = "<group>";
+		};
+		7232642D2EEADDAC00809AB2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				723264292EEADDA900809AB2 /* DaytonaRoadApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		723264312EEADDBA00809AB2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7232642E2EEADDBA00809AB2 /* View+Extensions.swift */,
+				7232642F2EEADDBA00809AB2 /* Color+Extensions.swift */,
+				723264302EEADDBA00809AB2 /* ShapeStyle+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		723264332EEADDBA00809AB2 /* HomeWebScreen */ = {
+			isa = PBXGroup;
+			children = (
+				723264322EEADDBA00809AB2 /* DRHomeWebView.swift */,
+			);
+			path = HomeWebScreen;
+			sourceTree = "<group>";
+		};
+		723264352EEADDBA00809AB2 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				723264342EEADDBA00809AB2 /* DRLaunchView.swift */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		723264362EEADDBA00809AB2 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				723264332EEADDBA00809AB2 /* HomeWebScreen */,
+				723264352EEADDBA00809AB2 /* LaunchScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		723264182EEADD6700809AB2 /* DaytonaRoad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 723264252EEADD6900809AB2 /* Build configuration list for PBXNativeTarget "DaytonaRoad" */;
+			buildPhases = (
+				D4AF9C8639DF13AF45BE4EA6 /* [CP] Check Pods Manifest.lock */,
+				723264152EEADD6700809AB2 /* Sources */,
+				723264162EEADD6700809AB2 /* Frameworks */,
+				723264172EEADD6700809AB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DaytonaRoad;
+			productName = DaytonaRoad;
+			productReference = 723264192EEADD6700809AB2 /* DaytonaRoad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		723264112EEADD6700809AB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					723264182EEADD6700809AB2 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = 723264142EEADD6700809AB2 /* Build configuration list for PBXProject "DaytonaRoad" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 723264102EEADD6700809AB2;
+			minimizedProjectReferenceProxies = 1;
+			productRefGroup = 7232641A2EEADD6700809AB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				723264182EEADD6700809AB2 /* DaytonaRoad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		723264172EEADD6700809AB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7232642B2EEADDA900809AB2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D4AF9C8639DF13AF45BE4EA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DaytonaRoad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		723264152EEADD6700809AB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7232642C2EEADDA900809AB2 /* DaytonaRoadApp.swift in Sources */,
+				723264372EEADDBA00809AB2 /* DRLaunchView.swift in Sources */,
+				723264382EEADDBA00809AB2 /* View+Extensions.swift in Sources */,
+				723264392EEADDBA00809AB2 /* ShapeStyle+Extensions.swift in Sources */,
+				7232643A2EEADDBA00809AB2 /* DRHomeWebView.swift in Sources */,
+				7232643B2EEADDBA00809AB2 /* Color+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		723264232EEADD6900809AB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		723264242EEADD6900809AB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		723264262EEADD6900809AB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EAB702EE16D92403FF3FDD3 /* Pods-DaytonaRoad.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DaytonaRoad/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Daytona Road";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kyrychenkoproj.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Debug;
+		};
+		723264272EEADD6900809AB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5176C4E56065ADAA548EFEA5 /* Pods-DaytonaRoad.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DaytonaRoad/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Daytona Road";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kyrychenkoproj.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		723264142EEADD6700809AB2 /* Build configuration list for PBXProject "DaytonaRoad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				723264232EEADD6900809AB2 /* Debug */,
+				723264242EEADD6900809AB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		723264252EEADD6900809AB2 /* Build configuration list for PBXNativeTarget "DaytonaRoad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				723264262EEADD6900809AB2 /* Debug */,
+				723264272EEADD6900809AB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 723264112EEADD6700809AB2 /* Project object */;
+}
