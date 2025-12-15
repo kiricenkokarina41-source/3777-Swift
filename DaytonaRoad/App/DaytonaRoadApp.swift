@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct DaytonaRoadApp: App {
+    
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     var body: some Scene {
         WindowGroup {
-            DRLaunchView()
+            AppEntryPoint()
         }
     }
 }

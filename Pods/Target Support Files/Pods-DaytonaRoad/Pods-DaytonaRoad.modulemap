@@ -1,4 +1,4 @@
-framework module Pods_DaytonaRoad {
+module Pods_DaytonaRoad {
   umbrella header "Pods-DaytonaRoad-umbrella.h"
 
   export *

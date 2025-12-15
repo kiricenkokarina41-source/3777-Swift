@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "917035C20E5D7139881FD820F07FA345"
-               BuildableName = "Pods_DaytonaRoad.framework"
+               BuildableName = "libPods-DaytonaRoad.a"
                BlueprintName = "Pods-DaytonaRoad"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

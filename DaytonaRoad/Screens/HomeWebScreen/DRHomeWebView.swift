@@ -8,6 +8,9 @@ struct DRHomeWebView: View {
         WebContainer(url: URL(string: urlString)!)
             .ignoresSafeArea(.all)
             .hideNavigationBar()
+            .onAppear {
+                AppDelegate.orientationLock = .landscape
+            }
     }
 }
 
