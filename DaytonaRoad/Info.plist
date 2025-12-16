@@ -25,6 +25,9 @@
         <string>ripple</string>
         <string>litecoin</string>
         <string>bitcoincash</string>
+        <string>phonepe</string>
+        <string>paytmmp</string>
+        <string>upi</string>
     </array>
     <key>UIAppFonts</key>
     <array>
